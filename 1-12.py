@@ -79,4 +79,7 @@ if b[jan]>19:
 else:
     print("janko odide na vysoku o", 19-b[jan],"rokov")
 
-
+kdo=min(b)
+for i in range(3):
+    if b[i]==kdo:
+        print("najmladsi je:", a[i])
