@@ -55,9 +55,28 @@ print("pocet dospelych deti je: ",pocet18)
 for i in range(3):
     if a[i]=="janko":
         jan=i
-        print("janko",i)
+        print("janko je na pozicii:",jan)
 
+
+if jan!=2:
+    print ("za jankom je:",a[jan+1])
+else:
+    print("za jankom nido neni")
+
+
+print()
 for i in range(3):
-    if i!=jan:
-        print (a[i],end=",")
+    if a[i]=="ferko":
+        fer=i
+print()
+if b[jan]>b[fer]:
+    print("janko je starsi ako ferko")
+elif b[jan]<b[fer]:
+    print("ferko je starsi ako janko")
+print()
+if b[jan]>19:
+    print("uz je na vysokej")
+else:
+    print("janko odide na vysoku o", 19-b[jan],"rokov")
+
 
