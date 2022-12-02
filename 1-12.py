@@ -27,3 +27,37 @@ for i in range(3):
 
 print(a)
 print(b)
+
+pocet15=0
+for i in range(3):
+    if b[i]==15:
+        pocet15=pocet15+1
+
+print("pocet deti s vekom 15r: ",pocet15)
+
+for i in range(3):
+    if a[i]=="ferko":
+        print("ferko",i)
+
+vek=0
+for i in range(3):
+    vek=vek+b[i]
+
+print("priemer je:",vek/3)
+
+pocet18=0
+for i in range(3):
+    if b[i]>=18:
+        pocet18=pocet18+1
+
+print("pocet dospelych deti je: ",pocet18)
+
+for i in range(3):
+    if a[i]=="janko":
+        jan=i
+        print("janko",i)
+
+for i in range(3):
+    if i!=jan:
+        print (a[i],end=",")
+
